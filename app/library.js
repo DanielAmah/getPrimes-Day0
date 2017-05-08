@@ -27,7 +27,10 @@
 	 {
 		return [2];
 	 }
-	  
+	  else if (num ===0) 
+	 {
+		return [];
+	 }
 	 else 
 	 {
 	  
