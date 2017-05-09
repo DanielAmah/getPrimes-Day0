@@ -23,10 +23,6 @@ var getPrimes = require('../app/library.js')
         expect(getPrimes(4)).toEqual([ 2, 3 ]);
       });
 
-      it("should return an [2,3,5,7] if the argument passed is equal to 7", function() {
-        expect(getPrimes(7)).toEqual([ 2, 3, 5, 7 ]);
-      });
-
       it("should return an [ 2, 3, 5, 7, 11 ] if the argument passed is equal to 12", function() {
         expect(getPrimes(12)).toEqual([ 2, 3, 5, 7, 11 ]);
       });
@@ -46,6 +42,11 @@ var getPrimes = require('../app/library.js')
       it("should return an [ 2, 3 ] if the argument passed is equal to 3", function() {
         expect(getPrimes(3)).toEqual([ 2, 3 ]);
       });
+	  
+	  it("should return an empty array  if no argument obtained", function() {
+        expect(getPrimes()).toEqual([]);
+      });
+    
     
   });
 })();
