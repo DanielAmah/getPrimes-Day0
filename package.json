@@ -1,0 +1,25 @@
+{
+  "name": "getprimes-day0",
+  "version": "1.0.0",
+  "description": "get primes",
+  "main": "index.js",
+  "scripts": {
+   "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielAmah/getPrimes-Day0.git"
+  },
+  "keywords": [
+    "primes"
+  ],
+  "author": "Daniel Amah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielAmah/getPrimes-Day0/issues"
+  },
+  "homepage": "https://github.com/DanielAmah/getPrimes-Day0#readme",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
